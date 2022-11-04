@@ -2,23 +2,31 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
   background-color: seashell;
-  padding: 10px;
+  padding: 15px 30px 0px 30px;
+  background-color: #efefef;
+}
+.my-button-style,
+.button-basket {
+  background-color: #e6df44;
 }
 .wrapper-form label {
   margin: 0px 2px 16px;
 }
 .nav {
-  background-color: papayawhip;
+  background-color: #063852;
   font-weight: bold;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 3px double khaki;
-  border-bottom: 3px double khaki;
+  border-top: 2px solid #f0810f;
+  border-bottom: 2px solid #f0810f;
+  height: 80px;
+
   flex-wrap: wrap;
   padding-left: 20px;
   padding-right: 20px;
@@ -49,7 +57,7 @@ body {
 .first,
 .second,
 .third {
-  background-color: seashell;
+  background-color: #efefef;
   margin: 10px;
 }
 
@@ -73,8 +81,9 @@ body {
   font-weight: bold;
   padding: 5px;
   border-radius: 5%;
-  background-color: cornsilk;
-  border: solid 5px blanchedalmond;
+  background-color: #f0810f;
+  border: solid 3px #e6df44;
+  color: white;
 }
 
 .second-penal {
