@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: seashell;
+  padding: 10px;
+}
+.wrapper-form label {
+  margin: 0px 2px 16px;
+}
+.nav {
+  background-color: papayawhip;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 3px double khaki;
+  border-bottom: 3px double khaki;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.div-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 320px;
+}
+.basket-image {
+  width: 40px;
+  height: 41px;
+}
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.parent-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.first,
+.second,
+.third {
+  background-color: seashell;
+  margin: 10px;
+}
+
+.second {
+  height: auto;
+}
+.img-wrapper {
+  width: 260px;
+}
+.img {
+  width: 250px;
+}
+.description {
+  margin-right: 50px;
+}
+.wrapper-form {
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  height: 180px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5%;
+  background-color: cornsilk;
+  border: solid 5px blanchedalmond;
+}
+
+.second-penal {
+  text-align: right;
+}
+
+.input-count {
+  width: 100px;
+  padding: 0px;
+  margin: 0px 2px 16px;
+}
