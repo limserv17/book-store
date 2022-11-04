@@ -5,27 +5,28 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body {
-  background-color: seashell;
+  background-color: #f9f7f2;
   padding: 15px 30px 0px 30px;
-  background-color: #efefef;
 }
 .my-button-style,
 .button-basket {
-  background-color: #e6df44;
+  background-color: #fcca6f;
+  border-radius: 30px;
 }
 .wrapper-form label {
   margin: 0px 2px 16px;
 }
 .nav {
-  background-color: #063852;
+  background-color: #dd2255;
   font-weight: bold;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 2px solid #f0810f;
-  border-bottom: 2px solid #f0810f;
+  /* border-top: 1px solid #44000a;
+  border-bottom: 1px solid #44000a; */
   height: 80px;
+  border-radius: 30px;
 
   flex-wrap: wrap;
   padding-left: 20px;
@@ -57,7 +58,6 @@ body {
 .first,
 .second,
 .third {
-  background-color: #efefef;
   margin: 10px;
 }
 
@@ -81,8 +81,8 @@ body {
   font-weight: bold;
   padding: 5px;
   border-radius: 5%;
-  background-color: #f0810f;
-  border: solid 3px #e6df44;
+  background-color: #fd5d5b;
+  /* border: solid 1px #44000a; */
   color: white;
 }
 
